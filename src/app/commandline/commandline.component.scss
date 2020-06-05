@@ -1,0 +1,12 @@
+.console {
+  background: black;
+  color: white;
+  font-family: monospace;
+  padding: 1em;
+  min-height: calc(100vh - 2em);
+  width: calc(100vw - 2em);
+}
+
+#root {
+  overflow-x: hidden;
+}

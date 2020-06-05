@@ -1,0 +1,8 @@
+<div class="console" (click)="focusPrompt()">
+  <app-line
+    *ngFor="let line of currentLines.lines$ | async"
+    [line]="line"
+  ></app-line>
+</div>
+
+

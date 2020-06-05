@@ -1,0 +1,20 @@
+div.prompt-container {
+  display: flex;
+  width: 80vw;
+  height: 17px;
+  line-height: 17px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  cursor: default;
+}
+
+/*https://stackoverflow.com/a/18249744/6707985*/
+
+p:after {
+  content: "";
+  display: inline-block;
+  width: 0;
+}

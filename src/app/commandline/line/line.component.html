@@ -1,0 +1,6 @@
+<p *ngIf="!line.hasPrompt">{{ line.content }}</p>
+
+<div *ngIf="line.hasPrompt" class="prompt-container">
+  <p>{{ prompt + line.content }}</p>
+  <app-prompt-input *ngIf="line.acceptsInput"></app-prompt-input>
+</div>
